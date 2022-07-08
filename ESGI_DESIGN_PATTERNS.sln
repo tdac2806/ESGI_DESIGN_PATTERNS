@@ -14,6 +14,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{398E7B45-FA5B-4C2B-928D-2A4FADA7D787}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{DA71B6A0-E89C-4A44-9C54-CAA25F005F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain_Of_Responsability", "Chain_Of_Responsability\Chain_Of_Responsability.csproj", "{79BBC857-FCE6-4C63-80A0-69A599164130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RenduProjet", "RenduProjet", "{CAAC984F-DE5B-4009-B973-4638F4B07EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "RenduProjet\Singleton\Singleton.csproj", "{85C92572-9B3F-4F5F-A858-01AD1A33B54D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +56,20 @@ Global
 		{398E7B45-FA5B-4C2B-928D-2A4FADA7D787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{398E7B45-FA5B-4C2B-928D-2A4FADA7D787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{398E7B45-FA5B-4C2B-928D-2A4FADA7D787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA71B6A0-E89C-4A44-9C54-CAA25F005F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA71B6A0-E89C-4A44-9C54-CAA25F005F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA71B6A0-E89C-4A44-9C54-CAA25F005F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA71B6A0-E89C-4A44-9C54-CAA25F005F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BBC857-FCE6-4C63-80A0-69A599164130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BBC857-FCE6-4C63-80A0-69A599164130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BBC857-FCE6-4C63-80A0-69A599164130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BBC857-FCE6-4C63-80A0-69A599164130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C92572-9B3F-4F5F-A858-01AD1A33B54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C92572-9B3F-4F5F-A858-01AD1A33B54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C92572-9B3F-4F5F-A858-01AD1A33B54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C92572-9B3F-4F5F-A858-01AD1A33B54D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85C92572-9B3F-4F5F-A858-01AD1A33B54D} = {CAAC984F-DE5B-4009-B973-4638F4B07EBF}
 	EndGlobalSection
 EndGlobal
