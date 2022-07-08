@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RenduProjet", "RenduProjet"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "RenduProjet\Singleton\Singleton.csproj", "{85C92572-9B3F-4F5F-A858-01AD1A33B54D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "RenduProjet\Adapter\Adapter.csproj", "{CD7F957E-B73C-42D6-B5FF-40FEE1E63114}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,8 +70,13 @@ Global
 		{85C92572-9B3F-4F5F-A858-01AD1A33B54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85C92572-9B3F-4F5F-A858-01AD1A33B54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85C92572-9B3F-4F5F-A858-01AD1A33B54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD7F957E-B73C-42D6-B5FF-40FEE1E63114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7F957E-B73C-42D6-B5FF-40FEE1E63114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7F957E-B73C-42D6-B5FF-40FEE1E63114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7F957E-B73C-42D6-B5FF-40FEE1E63114}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{85C92572-9B3F-4F5F-A858-01AD1A33B54D} = {CAAC984F-DE5B-4009-B973-4638F4B07EBF}
+		{CD7F957E-B73C-42D6-B5FF-40FEE1E63114} = {CAAC984F-DE5B-4009-B973-4638F4B07EBF}
 	EndGlobalSection
 EndGlobal
